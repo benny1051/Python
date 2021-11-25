@@ -1,3 +1,4 @@
+#Benny Petersson, Learning python
 import os
 os.system('clear')
 
@@ -10,12 +11,12 @@ print("Hello World! and "+fullName)
 
 fullName= "bob"
 
-names= ["Lennart", "Måns", "Majlis"]
-favPizza = {
+names= ["Lennart", "Måns", "Majlis"] #Array
+favPizza = { # key, value
 	"Lennart" : "Pepperoni",
 	"Måns" : "Mushroom",
 	"Majlis" : "Cheese"
 }
 
-print(names+ names[0])# print the entire array and then print index 0
+print(names[0])# print index 0
 print(favPizza["Lennart"])# Vill be Pepperoni, Key: Value
